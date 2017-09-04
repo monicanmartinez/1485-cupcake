@@ -155,45 +155,106 @@
         </tr>
       </thead>
       <tbody>
-      	<tr>
-        	<td>$1.25 each</td>
-            <td>$2.50 each</td>
-            <td>$3.50 each</td>
+        <tr>
+          <td>$1.25 each</td>
+          <td>$2.50 each</td>
+          <td>$3.50 each</td>
         </tr>
         <tr>
-        	<td>$13.00/dozen</td>
-            <td>$27.50/dozen</td>
-            <td>$38.50/dozen</td>
+          <td>$13.00/dozen</td>
+          <td>$27.50/dozen</td>
+          <td>$38.50/dozen</td>
         </tr>
         <tr>
-        	<td>$2.00 off 2 dozen</td>
+          <td>$2.00 off 2 dozen</td>
         </tr>
       </tbody>
     </table>
     <h2>Place an Order</h2>
     <form>
-    	<fieldset>
-        	<legend>Place An Order</legend>
+      <fieldset>
+        <legend>Place An Order</legend>
+        <div class="row">
+          <div id="left-form">
+            <label for="fname">First Name</label>
+            <input type="text" name="first-name" id="" placeholder="First Name">
+            <label for="lname">Last Name</label>
+            <input type="text" name="first-name" id="" placeholder="Last Name">
+            <label for="phone"> Phone Number</label>
+            <input type="text" name="" id="first-name" placeholder="Phone Number">
+            <label for="email">Email Adress</label>
+            <input type="text" name="email" id="email" placeholder="Email">
+            <label>Special Requests</label>
+            <input type="text-area" name="requests" id="requests" placeholder="Special Requests">
+          </div>
+          <div id="right-form">
+            <label>Occasions</label>
+            <select name="occasion">
+              <option>--</option>
+              <option>Social Gathering</option>
+              <option>Birthday</option>
+              <option>Wedding</option>
+            </select>
+            <p>quantity</p>
+            <input type="checkbox" name="quantity" value="individual">
+            <label>individual</label>
+            <input type="checkbox" name="quantity" value="one-dozen">
+            <label>one dozen</label>
+            <input type="checkbox" name="quantity" value="two-dozen">
+            <label>two dozen</label>
+            <p>flavor</p>
             <div class="row">
-            	<div id="left-form">
-                <label for="fname">First Name</label>
-                <input type="text" name="first-name" id="" placeholder="First Name">
-                <label for="lname">Last Name</label>
-                <input type="text" name="first-name" id="" placeholder="Last Name">
-                <label for="phone"> Phone Number</label>
-                <input type="text" name="" id="first-name" placeholder="Phone Number">
-                <label for="email">Email Adress</label>
-                <input type="text" name="email" id="email" placeholder="Email">
-                <label>Special Requests</label>
-                <input type="text-area" name="requests" id="requests" placeholder="Special Requests">
-                </div>
-                <div id="right-form">
-                	<label></label>
-                </div>
+              <div id="flavor1">
+                <input type="checkbox" name="flavor" value="wedding-cake">
+                <label>wedding cake</label>
+                <input type="checkbox" name="flavor" value="gbr">
+                <label>go big red</label>
+                <input type="checkbox" name="flavor" value="signature">
+                <label>signature</label>
+              </div>
+              <div id="flavor2">
+                <input type="checkbox" name="flavor" value="tuxed">
+                <label>tuxed</label>
+                <input type="checkbox" name="flavor" value="pb-cup">
+                <label>pb cup</label>
+                <input type="checkbox" name="flavor" value="chocolate">
+                <label>chocolate lovers</label>
+              </div>
+              <div id="flavor3">
+                <input type="checkbox" name="flavor" value="princess">
+                <label>princess</label>
+                <input type="checkbox" name="flavor" value="cookies-creme">
+                <label>cookies &amp; creme</label>
+              </div>
             </div>
-        </fieldset>
+            <p>type</p>
+            <input type="checkbox" name="type" value="signature">
+            <label>signature</label>
+            <input type="checkbox" name="type" value="allergen-free">
+            <label>allergen free</label>
+            <input type="checkbox" name="type" value="vegan">
+            <label>vegan</label>
+            <p><b>Time limits for orders are 48 hours;please wait <br>
+              for a confirmation email to verify your order.</b></p>
+            <p><a href="http://www.paypal.com" target="_blank">pay with paypal</a></p>
+          </div>
+        </div>
+      </fieldset>
     </form>
   </div>
 </section>
+<footer>
+  <div class="wrapper">
+    <div id="location">
+      <h5>our location</h5>
+      <p>123 Fake Street #101<br>
+        Fakersville, FA 12345</p>
+    </div>
+    <div id="info">
+      <h5>real fake authentic</h5>
+      <p>specialty bakery dedicated to creating and backing several different sweet treats.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
