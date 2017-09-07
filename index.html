@@ -10,11 +10,12 @@
 <body>
 <header>
   <nav>
-    <ul>
+  	<div><img src="img/logo.png" alt="real-fake-authentic"></div>
+    <ul class="wrapper">
       <li><a href="#">Home</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="products">Products</a></li>
-      <li><a href="contact-us">Contact Us</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact-us">Contact Us</a></li>
     </ul>
   </nav>
 </header>
@@ -29,7 +30,7 @@
 <section id="spec-bake">
   <div class="wrapper">
     <header>
-      <h1>specialty bakery dedicated to creating and baking several different sweet treats.</h1>
+      <h2>specialty bakery dedicated to creating and baking several different sweet treats.</h2>
     </header>
   </div>
 </section>
@@ -37,12 +38,15 @@
 <div class="row">
   <div id="about">
     <header>
-      <h2>About</h2>
+      <h2>About Us</h2>
     </header>
-    <p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular & Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!
-      We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.
-      Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, <a href="#please give us a call">please give us a call.</a></p>
-    <p><a href="contact">Contact Us</a></p>
+    <div class="row">
+      <div id="bckrnd-info">
+        <p>We offer cupcakes in three sizes: Jumbo Gourmet (filled), Regular & Mini. Plus, we make Cakes, Cake Balls/Pops, Brownie Shots and several other sweet treats!
+          We are open 7 days a week, beginning Sunday at 11 am till 4 pm. Monday through Friday 8 am till 7 pm, and Saturday 10 am to 5 pm.
+          Stop in today for a treat or give us a call for an order!  We take special orders daily and provide delivery options. For pricing inquiries, <a href="#please-give-us-a-call">please give us a call.</a></p>
+        <p><a href="contact">Contact Us</a></p>
+    </div>
   </div>
 </div>
 <!------------------------------------------>
@@ -57,6 +61,7 @@
       <div>
         <h3>Sunday<br>
           11:00 AM - 4:00 PM</h3>
+       </div>
       </div>
     </div>
   </div>
@@ -123,7 +128,7 @@
           <h4>Princess/Prince</h4>
           <p>Almond flavored White Cake frosted with a pastel pink and pastel blue swirl vanilla buttercream, topped with colorful confetti sprinkles.</p>
         </div>
-        <div clas="items">
+        <div class="items">
           <h4>Cookies &amp; Creme</h4>
           <p>Chocolate Cake frosted with chocolate cookie crumb buttercream and topped with crumbed oreo crumbs.</p>
         </div>
@@ -177,15 +182,15 @@
         <div class="row">
           <div id="left-form">
             <label for="fname">First Name</label>
-            <input type="text" name="first-name" id="" placeholder="First Name">
+            <input type="text" name="first-name" id="fname" placeholder="First Name">
             <label for="lname">Last Name</label>
-            <input type="text" name="first-name" id="" placeholder="Last Name">
+            <input type="text" name="first-name" id="lname" placeholder="Last Name">
             <label for="phone"> Phone Number</label>
-            <input type="text" name="" id="first-name" placeholder="Phone Number">
+            <input type="text" name="first-name" id="phone" placeholder="Phone Number">
             <label for="email">Email Adress</label>
             <input type="text" name="email" id="email" placeholder="Email">
             <label>Special Requests</label>
-            <input type="text-area" name="requests" id="requests" placeholder="Special Requests">
+            <textarea name="textarea" id="text-area"></textarea>
           </div>
           <div id="right-form">
             <label>Occasions</label>
