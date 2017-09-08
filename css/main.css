@@ -96,7 +96,29 @@ h3, h4, h5 {
 	font-weight: 100;
 }
 
-/*===== 1.3 - Buttons =====*/
+#bckrnd-info p:nth-child(3) {
+	padding-bottom: 60px;
+}
+
+/*===== 1.3 - Buttons/Hover Text =====*/
+
+#about a:hover {
+	color: #77E5E6;
+	border-bottom: 1px solid #77E5E6;
+}
+
+#about p:last-child a {
+	color: #77E5E6;
+	padding: 15px 50px;
+	border: solid;
+	
+}
+
+#about p:last-child a:hover {
+	background-color: #77E5E6;
+	color: #fff;
+	text-decoration: underline #fff;
+}
 
 /*===== 1.4 - Forms =====*/
 
@@ -121,10 +143,7 @@ input, select {
 	margin-right: 0;
 }
 
-#left-form, #right-form {
-	float: left;
-	margin-right: 150px;
-}
+
 
 label, form p {
 	color: #fff;
@@ -217,8 +236,9 @@ nav {
 
 #bckrnd-info {
 	float: left;
-	width: 550px;
+	width: 750px;
 	margin: 20px 0 0 90px;
+	line-height: 30px;
 }
 
 #hours {
